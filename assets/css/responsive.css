@@ -1,0 +1,156 @@
+@media (max-width: 790px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .layout{
+        width: 100%;
+        margin: 0;
+    }
+
+    .layout__container{
+        padding: 0;
+    }
+
+    .header__image{
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .image__img{
+        border-radius: 0;
+    }
+
+    .container__header{
+        padding: 0 4.4rem;
+    }
+
+    .header__description{
+        padding: 0 4.4rem;
+    }
+
+    .layout__preparation,
+    .layout__ingredients,
+    .layout__instructions,
+    .layout__nutricion{
+        width: 67rem;
+        margin: 0 4.4rem;
+    }
+
+    .attribution{
+        margin: 3rem 0 3rem 25rem;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .layout__preparation,
+    .layout__ingredients,
+    .layout__instructions,
+    .layout__nutricion{
+        width: 58rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .layout__preparation,
+    .layout__ingredients,
+    .layout__instructions,
+    .layout__nutricion{
+        width: 53rem;
+    }
+
+    .nutricion__table-data2{
+        padding-right: 13rem;
+    }
+}
+
+@media (max-width: 585px) {
+    .layout__preparation,
+    .layout__ingredients,
+    .layout__instructions,
+    .layout__nutricion{
+        width: 48rem;
+    }
+    .nutricion__table-data2{
+        padding-right: 8rem;
+    }
+
+    .attribution {
+        margin: 3rem 0 3rem 15rem;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .header__tittle{
+        font-size: 3.6rem;
+    }
+
+    .layout__preparation,
+    .layout__ingredients,
+    .layout__instructions,
+    .layout__nutricion{
+        width: 43rem;
+    }
+
+    .nutricion__table-data2{
+        padding-right: 5rem;
+    }
+
+    .attribution {
+        margin: 3rem 0 3rem 12rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .layout__preparation,
+    .layout__ingredients,
+    .layout__instructions,
+    .layout__nutricion{
+        width: 37rem;
+    }
+
+
+}
+
+@media (max-width: 415px) {
+
+    .header__tittle{
+        font-size: 3.2rem;
+    }
+
+    .layout__preparation,
+    .layout__ingredients,
+    .layout__instructions,
+    .layout__nutricion{
+        width: 32rem;
+    }
+    .nutricion__table-data1{
+        padding-right: 12rem;
+    }
+    .nutricion__table-data2{
+        padding-right: 5rem;
+    }
+
+
+    .attribution{
+        margin: 3rem 0 3rem 4rem;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .header__tittle{
+        font-size: 2.9rem;
+    }
+
+    .layout__preparation,
+    .layout__ingredients,
+    .layout__instructions,
+    .layout__nutricion{
+        width: 28rem;
+    }
+}

@@ -1,0 +1,64 @@
+/* We adjust the global styles by removing the default margin and padding */
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* We optimize all properties with box-sizing */
+*, 
+::before,
+::after{
+    box-sizing: border-box;
+    /* Optimizes if the user has an old browser */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/* We apply styles for the body */
+body{
+    /* We make the scrolling smooth if there is a scroll */
+    scroll-behavior: smooth;
+    /* We optimize image loading speed */
+    text-rendering: optimizeSpeed;
+    /* We apply 1.5 to the line height */
+    line-height: 1.5;
+}
+
+/* We remove the styles from the lists */
+
+/* We apply styles to the links */
+a{
+    /* We set the display to the block link */
+    display: block;
+    /* We remove the underlining by default */
+    text-decoration: none;
+    /* We make links inherit the properties of their parent containers */
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* If a link has a paragraph so that there is no line break, we set the paragraph to "inline" */
+p a{
+    display: inline;
+}
+
+
+/* We adjust the images or videos with their maximum width and their block display */
+img,video,iframe,picture,figure{
+    max-width: 100%;
+    display: block;
+}
+
+/* We adjust the styles of the forms and they inherit different properties */
+form, input, select, textarea, button, label{
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}

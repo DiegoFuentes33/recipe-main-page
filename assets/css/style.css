@@ -1,0 +1,246 @@
+:root{
+    --color-white: hsl(0, 0%, 100%);
+    --color-rose-white: hsl(330, 100%, 98%);
+    --color-eggshell: hsl(30, 54%, 90%);
+    --color-light-grey: hsl(30, 18%, 87%);
+    --color-wenge-brown: hsl(30, 10%, 34%);
+    --color-dark-charcoal: hsl(24, 5%, 18%);   
+    --color-title-text: #774057;
+    --color-subtitle-text: #8B4C37;
+    --color-border: #E7E7E7;
+    --color-text: #6B6968;
+}
+
+html{
+    font-size: 10px;
+}
+
+
+body{
+    background-color: var(--color-eggshell);
+    font-family: 'Outfit', sans-serif;  
+    font-size: 1.6rem;
+}
+
+
+
+.layout{
+    width: 77.8rem;
+    margin: 13rem auto;
+    background-color: var(--color-white);
+    border-radius: 2.4rem;
+}
+
+.layout__container{
+    padding: 4.4rem;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.layout__header{
+    width: 100%;
+    margin-bottom: 3.7rem;
+}
+
+.header__image{
+    width: 69rem;
+    height: 31.6rem;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+
+.image__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    transition: all 300ms ease-in-out;
+}
+
+.image__img:hover{
+    transform: scale(1.1);
+}
+
+.header__tittle{
+    font-family: 'Young Serif', serif;
+    padding: 3.4rem 0 1.6rem 0;
+    font-size: 4.2rem;
+    font-weight: 400;
+    color: var(--color-dark-charcoal);
+}
+
+.header__description{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: var(--color-text);
+}
+
+/* PREPARATION */
+.layout__preparation{
+    width: 100%;
+    background-color: var(--color-rose-white);
+    padding: 2.7rem;
+    border-radius: 1.2rem;
+}
+
+.preparation__title{
+    font-size: 2rem;
+    color: var(--color-title-text);
+}
+
+.preparation__list{
+    margin-left: 2.5rem;
+    color: var(--color-title-text);
+    
+}
+
+.preparation__item{
+    margin: 1.2rem 0;
+}
+
+.preparation__item:last-child{
+    margin-bottom: 0;
+}
+
+.preparation__text{
+    margin-left: 2rem;
+    color: var(--color-text);
+}
+
+.text__span-bold{
+    color: var(--color-wenge-brown);
+    font-weight: bold;
+}
+
+/* INGREDIENTS */
+.layout__ingredients{
+    width: 100%;
+    padding: 3rem 0;
+    border-bottom: 0.2rem solid var(--color-border);
+}
+
+.ingredients__title,
+.instructions__title,
+.nutricion__title{
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Young Serif', sans-serif;
+    color: var(--color-subtitle-text);
+}
+
+.ingredients__list{
+    margin-left: 2.5rem;
+    color: var(--color-title-text);
+}
+
+.ingredients__text{
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: var(--color-text);
+    margin-left: 2rem;
+}
+
+.ingredients__item{
+    margin-bottom: 1rem;
+}
+
+.ingredients__item:last-child{
+    margin-bottom: 0;
+}
+
+/* INSTRUCTIONS */
+
+.layout__instructions{
+    width: 100%;
+    padding: 3rem 0;
+    border-bottom: 0.2rem solid var(--color-border);
+}
+
+.instructions__list{
+    margin-left: 2.5rem;
+    font-weight: 600;
+    color: var(--color-title-text);
+}
+
+.instructions__item{
+    margin-bottom: 1rem;
+}
+
+.instructions__item:last-child{
+    margin-bottom: 0;
+}
+
+.instructions__text{
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: var(--color-text);
+    margin-left: 2rem;
+}
+
+/* NUTRITION */
+.layout__nutricion{
+    width: 100%;
+    padding: 3rem 0 0 0;
+}
+
+.nutricion__subtitle{
+    color: var(--color-text);
+    margin-bottom: 3rem;
+}
+
+.nutricion__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* TABLE */
+
+.nutricion__table-data1{
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    padding-left: 3rem;
+    padding-right:26rem;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-border);
+}
+
+
+.nutricion__table-data2{
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    padding-right: 20rem;
+    font-weight: 700;
+    color: var(--color-title-text);
+    border-bottom: 2px solid var(--color-border);
+}
+
+
+.nutricion__table-data1-top{
+    padding-top: 0;
+}
+
+.nutricion__table-data2-top{
+    padding-top: 0;
+}
+
+.nutricion__table-data1-bottom{
+    padding-bottom: 0;
+    border: none;
+}
+
+.nutricion__table-data2-bottom{
+    padding-bottom: 0;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
